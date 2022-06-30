@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home';
 import Completed from './Pages/Completed/Completed';
 import ToDo from './Pages/ToDo/ToDo';
 import Calendar from './Pages/Calendar/Calendar';
+import Footer from './Pages/Shared/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="todo" element={<ToDo />} />
         <Route path="calendar" element={<Calendar />} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
