@@ -11,6 +11,7 @@ import Footer from './Pages/Shared/Footer';
 function App() {
   return (
     <div>
+      <h2 className='mt-10 mb-5 text-xl font-bold text-center '>Task Management Tool</h2>
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
