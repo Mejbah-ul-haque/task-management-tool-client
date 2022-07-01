@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const menuItems= <>
-    <li className='border rounded-lg'><Link to="/">To Do</Link></li>
-    <li className='border rounded-lg'><Link to="/completed">Completed Tasks</Link></li>
+    <li className='border rounded-lg mr-5'><Link to="/">To Do</Link></li>
+    <li className='border rounded-lg mr-5'><Link to="/completed">Completed Tasks</Link></li>
     {/* <li><Link to="/todo">To-Do</Link></li> */}
     <li className='border rounded-lg'><Link to="/calendar">Calendar</Link></li>
   </>
